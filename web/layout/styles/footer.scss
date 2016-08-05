@@ -1,0 +1,43 @@
+#footer {
+    background-color: #ececec;
+    border-top: 2px solid #dedede;
+
+    .inside {
+        padding: 20px 0 16px 0;
+    }
+
+    .mod_navigation {
+        @include clearfix;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+            li {
+                margin: 0;
+                padding: 0 10px;
+                float: left;
+                border-right: 1px solid #444;
+
+                &:first-child {
+                    padding-left: 0;
+                }
+
+                &:last-child {
+                    border-right: none;
+                    padding-right: 0;
+                }
+            }
+        }
+
+        a, strong {
+            color: #333;
+            font-weight: 400;
+        }
+
+        a:hover, a.trail, strong {
+            color: #000;
+        }
+    }
+}

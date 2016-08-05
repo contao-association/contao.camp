@@ -1,3 +1,6 @@
+# Mage config
+.mage/config/environment/development.yml
+
 # App config
 /app/config/parameters.yml
 

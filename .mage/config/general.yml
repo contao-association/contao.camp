@@ -6,5 +6,5 @@ logging: true
 maxlogs: 30
 ssh_needs_tty: true
 scm: git
-composer_cmd: "php56 /home/example/public_html/composer.phar"
-symfony_app_path: "php56 app/console"
+composer_cmd: "php /home/example/public_html/composer.phar"
+symfony_app_path: "php app/console"

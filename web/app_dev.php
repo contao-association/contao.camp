@@ -18,7 +18,7 @@ use Symfony\Component\Debug\Debug;
 // SHA512:  9a83c7ec28250be89cef48d7698d68f4cd6e368e29c1339...6010ef50ed7d869de3cf0ccc65aa600e980818
 //
 // You can e.g. use http://www.hashgenerator.de to generate the SHA512 hash online.
-$accessKey = '';
+$accessKey = '08ffb62a73bac33684203aa33665105f5fb4900fc8e870abeb8d500e15a1c1e2d0c3ec73dc12b846570c0b2a19ef6ecc5a8b74638d8e1668e0674934832ab5f9';
 
 if (isset($_SERVER['HTTP_CLIENT_IP'])
     || isset($_SERVER['HTTP_X_FORWARDED_FOR'])
@@ -33,7 +33,7 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
         || !isset($_SERVER['PHP_AUTH_PW'])
         || hash('sha512', $_SERVER['PHP_AUTH_USER'].':'.$_SERVER['PHP_AUTH_PW']) !== $accessKey
     ) {
-        header('WWW-Authenticate: Basic realm="Contao debug"');
+        header('WWW-Authenticate: Basic realm="Contao Camp"');
         header('HTTP/1.0 401 Unauthorized');
         die(sprintf('You are not allowed to access this file. Check %s for more information.', basename(__FILE__)));
     }

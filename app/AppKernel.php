@@ -39,6 +39,7 @@ class AppKernel extends Kernel
             new Contao\CoreBundle\HttpKernel\Bundle\ContaoModuleBundle('multicolumnwizard', $this->getRootDir()),
             new Contao\CoreBundle\HttpKernel\Bundle\ContaoModuleBundle('haste', $this->getRootDir()),
             new Contao\CoreBundle\HttpKernel\Bundle\ContaoModuleBundle('dcawizard', $this->getRootDir()),
+            new Contao\CoreBundle\HttpKernel\Bundle\ContaoModuleBundle('mobile_menu', $this->getRootDir()),
             new Contao\CoreBundle\HttpKernel\Bundle\ContaoModuleBundle('notification_center', $this->getRootDir()),
             new Terminal42\LeadsBundle\Terminal42LeadsBundle(),
 

@@ -1,0 +1,218 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,690italic");
+
+/* Base */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font: 14px/21px 'PT Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    -webkit-text-size-adjust: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'PT Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.5;
+    border-bottom: 1px solid #dedede;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #e6770d;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+h5 {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+input,
+button {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 0;
+}
+
+textarea,
+button,
+input[type="text"],
+input[type="submit"],
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+select,
+button,
+input[type="checkbox"],
+input[type="checkbox"] + label,
+input[type="radio"],
+input[type="radio"] + label,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1.4em;
+
+    tr {
+        border-bottom: 2px solid #fff;
+    }
+
+    td, th {
+        padding: 4px 10px 4px 5px;
+    }
+
+    th {
+        width: 200px;
+        background: #dedede;
+    }
+
+    td {
+        background: #ececec;
+    }
+}
+
+ul ul {
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    color: #0077ca;
+    text-decoration: none;
+    outline: none;
+
+    &:hover {
+        color: #0061a6;
+    }
+}
+
+.block {
+    overflow: visible;
+}
+
+.mod_article {
+    padding: 30px 0;
+
+    .row *[class^="ce_"] {
+        padding-left: $grid-gutter-width / 2;
+        padding-right: $grid-gutter-width / 2;
+    }
+}
+
+/* Format the Contao image galleries */
+.ce_gallery {
+    @include clearfix;
+
+    > ul {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        list-style: none;
+
+        li {
+            float: left;
+
+            &.col_first {
+                clear: left;
+            }
+        }
+    }
+}
+
+/* Clear floats */
+.clear,
+#clear {
+    height: 0.1px;
+    font-size: 0.1px;
+    line-height: 0.1px;
+    clear: both;
+}
+
+/* Hide invisible elements */
+.invisible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* Custom layout sections */
+.custom {
+    display: block;
+}
+
+#container:after,
+.custom:after {
+    @include clearfix;
+}

@@ -1,0 +1,46 @@
+#main p {
+    font-size: 16px;
+}
+
+.ce_accordion .toggler {
+    cursor: pointer;
+}
+
+.sponsors-article {
+    padding-top: 0;
+
+    h2 {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dedede;
+    }
+
+    .ce_text {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .image_container {
+        height: 200px;
+        margin-bottom: 10px;
+        text-align: center;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+        img {
+            position: relative;
+            top: 50%;
+            max-height: 100%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    }
+}
+
+.twitter-content-box {
+    padding: 10px;
+    background-color: #ececec;
+    border: 4px solid #dedede;
+}
