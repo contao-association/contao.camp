@@ -1,0 +1,28 @@
+# App config
+/app/config/parameters.yml
+
+# Generated files
+/web/layout/app.css
+/web/layout/app.js
+
+# Generated folders
+/assets/
+/files/
+/node_modules/
+/system/
+/templates/
+/vendor/
+
+# Node.js modules
+/node_modules/
+
+# Symlinked resources
+/web/assets
+/web/bundles/
+/web/files/
+/web/share/
+/web/system/
+/web/vendor/
+
+# Skip files
+/system/modules/*/.skip
