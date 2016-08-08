@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eb6f8dc97255b40446ae596c4e6d6afe",
-    "content-hash": "477f5745219f271813852e8b6a94213b",
+    "hash": "7589a9ae9d45a729d2210f91c4d513b9",
+    "content-hash": "285704e61899b068799465de4d6aa00a",
     "packages": [
         {
             "name": "codefog/contao-haste",
@@ -4210,20 +4210,20 @@
         },
         {
             "name": "terminal42/notification_center",
-            "version": "dev-develop",
+            "version": "dev-hotfix/1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/terminal42/contao-notification_center.git",
-                "reference": "068c1ccebf0f380e1da4d3476573d7df9001e4f6"
+                "reference": "398be9eed886729f2802c22f2bf791f97abeada7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/terminal42/contao-notification_center/zipball/068c1ccebf0f380e1da4d3476573d7df9001e4f6",
-                "reference": "068c1ccebf0f380e1da4d3476573d7df9001e4f6",
+                "url": "https://api.github.com/repos/terminal42/contao-notification_center/zipball/398be9eed886729f2802c22f2bf791f97abeada7",
+                "reference": "398be9eed886729f2802c22f2bf791f97abeada7",
                 "shasum": ""
             },
             "require": {
-                "codefog/contao-haste": "^4.13.1",
+                "codefog/contao-haste": "^4.10.0",
                 "contao-community-alliance/composer-plugin": "~2.4 || ~3.0",
                 "contao/core-bundle": "~3.2 || ~4.1",
                 "php": ">=5.3.2",
@@ -4234,9 +4234,6 @@
             },
             "type": "contao-module",
             "extra": {
-                "branch-alias": {
-                    "dev-develop": "1.4.x-dev"
-                },
                 "contao": {
                     "sources": {
                         "": "system/modules/notification_center"
@@ -4275,7 +4272,7 @@
                 "contao",
                 "notification"
             ],
-            "time": "2016-07-21 13:46:15"
+            "time": "2016-06-14 08:40:35"
         },
         {
             "name": "true/punycode",
@@ -5544,9 +5541,17 @@
             "time": "2015-08-24 13:29:44"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "1.3.7",
+            "alias_normalized": "1.3.7.0",
+            "version": "dev-hotfix/1.3.7",
+            "package": "terminal42/notification_center"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "terminal42/notification_center": 20,
         "andres-montanez/magallanes": 20
     },
     "prefer-stable": true,
