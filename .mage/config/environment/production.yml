@@ -45,7 +45,6 @@ hosts:
 tasks:
     pre-deploy:
         - gulp: {env: prod}
-        - unit-tests
     on-deploy:
         - filesystem/link-shared-files:
             linked_files:
