@@ -1,8 +1,8 @@
 #production
 deployment:
-    user: example
+    user: contaoro
     from: ./
-    to: /home/example/public_html/production
+    to: /home/contaoro/public_html/contao.camp
     scm:
         branch: master
     excludes:
@@ -40,7 +40,7 @@ releases:
     directory: releases
 
 hosts:
-    - example.com
+    - 149.126.4.10
 
 tasks:
     pre-deploy:
@@ -52,6 +52,7 @@ tasks:
             linked_folders:
                 - app/logs: relative
                 - files: relative
+        - composer-self-update
         - composer/install: {dev: false}
         - composer/generate-autoload
         - symfony2/cache-warmup: {env: prod}

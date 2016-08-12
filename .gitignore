@@ -11,12 +11,10 @@
 # Generated folders
 /assets/
 /files/
-/node_modules/
-/system/
+/system/*
+!/system/config/
 /templates/
 /vendor/
-
-# Node.js modules
 /node_modules/
 
 # Symlinked resources
