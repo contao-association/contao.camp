@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7589a9ae9d45a729d2210f91c4d513b9",
+    "hash": "52676490dfe164a8a3d9ade452a730de",
     "content-hash": "285704e61899b068799465de4d6aa00a",
     "packages": [
         {
             "name": "codefog/contao-haste",
-            "version": "dev-develop",
+            "version": "4.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codefog/contao-haste.git",
-                "reference": "13dbfcaed7b8e60df352201506e26af6611eb3b5"
+                "reference": "693e3d7cc4828655c3553f0e20dc1b1c23c9ffeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codefog/contao-haste/zipball/13dbfcaed7b8e60df352201506e26af6611eb3b5",
-                "reference": "13dbfcaed7b8e60df352201506e26af6611eb3b5",
+                "url": "https://api.github.com/repos/codefog/contao-haste/zipball/693e3d7cc4828655c3553f0e20dc1b1c23c9ffeb",
+                "reference": "693e3d7cc4828655c3553f0e20dc1b1c23c9ffeb",
                 "shasum": ""
             },
             "require": {
@@ -80,16 +80,16 @@
         },
         {
             "name": "codefog/contao-mobile_menu",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codefog/contao-mobile_menu.git",
-                "reference": "950a286aa9124ec1cb4cd491cd3d1b349071e7d0"
+                "reference": "325b36d6c93755dd87ce3b9b61f55a17387a57f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codefog/contao-mobile_menu/zipball/950a286aa9124ec1cb4cd491cd3d1b349071e7d0",
-                "reference": "950a286aa9124ec1cb4cd491cd3d1b349071e7d0",
+                "url": "https://api.github.com/repos/codefog/contao-mobile_menu/zipball/325b36d6c93755dd87ce3b9b61f55a17387a57f8",
+                "reference": "325b36d6c93755dd87ce3b9b61f55a17387a57f8",
                 "shasum": ""
             },
             "require": {
@@ -122,20 +122,20 @@
                 "mobile",
                 "navigation"
             ],
-            "time": "2016-08-05 11:16:49"
+            "time": "2016-08-19 15:43:54"
         },
         {
             "name": "contao-community-alliance/composer-plugin",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao-community-alliance/composer-plugin.git",
-                "reference": "3aa3b14e3e239d87a31348f3c1f91ba8bf802c2a"
+                "reference": "6f8b3520196fcdc11ba90c4507ed6a0efdeb9482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao-community-alliance/composer-plugin/zipball/3aa3b14e3e239d87a31348f3c1f91ba8bf802c2a",
-                "reference": "3aa3b14e3e239d87a31348f3c1f91ba8bf802c2a",
+                "url": "https://api.github.com/repos/contao-community-alliance/composer-plugin/zipball/6f8b3520196fcdc11ba90c4507ed6a0efdeb9482",
+                "reference": "6f8b3520196fcdc11ba90c4507ed6a0efdeb9482",
                 "shasum": ""
             },
             "require": {
@@ -172,7 +172,7 @@
             ],
             "description": "Composer plugin that provides installers for contao-module and legacy-contao-module.",
             "homepage": "http://c-c-a.org/",
-            "time": "2016-05-24 13:26:20"
+            "time": "2016-08-11 10:04:27"
         },
         {
             "name": "contao-components/ace",
@@ -713,16 +713,16 @@
         },
         {
             "name": "contao-components/mootools",
-            "version": "1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao-components/mootools.git",
-                "reference": "dc059b7aaf8b9b10344b7aec19692ba48756de70"
+                "reference": "d53fd3dca16f0cb9ba27307d921f11317499c6d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao-components/mootools/zipball/dc059b7aaf8b9b10344b7aec19692ba48756de70",
-                "reference": "dc059b7aaf8b9b10344b7aec19692ba48756de70",
+                "url": "https://api.github.com/repos/contao-components/mootools/zipball/d53fd3dca16f0cb9ba27307d921f11317499c6d6",
+                "reference": "d53fd3dca16f0cb9ba27307d921f11317499c6d6",
                 "shasum": ""
             },
             "require": {
@@ -740,7 +740,7 @@
                 }
             ],
             "description": "MooTools integration for Contao Open Source CMS",
-            "time": "2015-08-25 08:52:27"
+            "time": "2016-08-19 09:41:27"
         },
         {
             "name": "contao-components/respimage",
@@ -930,16 +930,16 @@
         },
         {
             "name": "contao-components/tinymce4",
-            "version": "4.3.4.1",
+            "version": "4.3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao-components/tinymce4.git",
-                "reference": "55ee8751b707c7c743090ba21b8e5079059a0171"
+                "reference": "ea7685fb006e461ba3766a9e13e25b6b030f0b72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao-components/tinymce4/zipball/55ee8751b707c7c743090ba21b8e5079059a0171",
-                "reference": "55ee8751b707c7c743090ba21b8e5079059a0171",
+                "url": "https://api.github.com/repos/contao-components/tinymce4/zipball/ea7685fb006e461ba3766a9e13e25b6b030f0b72",
+                "reference": "ea7685fb006e461ba3766a9e13e25b6b030f0b72",
                 "shasum": ""
             },
             "require": {
@@ -957,7 +957,7 @@
                 }
             ],
             "description": "TinyMCE 4 integration for Contao Open Source CMS",
-            "time": "2016-05-18 07:00:35"
+            "time": "2016-08-17 12:25:38"
         },
         {
             "name": "contao/core-bundle",
@@ -1451,16 +1451,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.3",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1"
+                "reference": "dd40b0a7fb16658cda9def9786992b8df8a49be7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/fd51907c6c76acaa8a5234822a4f901c1500afc1",
-                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/dd40b0a7fb16658cda9def9786992b8df8a49be7",
+                "reference": "dd40b0a7fb16658cda9def9786992b8df8a49be7",
                 "shasum": ""
             },
             "require": {
@@ -1469,6 +1469,7 @@
                 "jdorn/sql-formatter": "~1.1",
                 "php": ">=5.3.2",
                 "symfony/console": "~2.3|~3.0",
+                "symfony/dependency-injection": "~2.3|~3.0",
                 "symfony/doctrine-bridge": "~2.2|~3.0",
                 "symfony/framework-bundle": "~2.3|~3.0"
             },
@@ -1527,7 +1528,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2016-04-21 19:55:56"
+            "time": "2016-08-10 15:35:22"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -3129,16 +3130,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.7",
+            "version": "v5.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "a9c4723cbdbc6cf7fbfdfde3c639cb1943f0293a"
+                "reference": "f8ace5c71ee309492b027ef71215577f5a52b4ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/a9c4723cbdbc6cf7fbfdfde3c639cb1943f0293a",
-                "reference": "a9c4723cbdbc6cf7fbfdfde3c639cb1943f0293a",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/f8ace5c71ee309492b027ef71215577f5a52b4ea",
+                "reference": "f8ace5c71ee309492b027ef71215577f5a52b4ea",
                 "shasum": ""
             },
             "require": {
@@ -3177,7 +3178,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-06-23 16:11:33"
+            "time": "2016-08-17 18:16:49"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -4049,12 +4050,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/terminal42/contao-folderpage.git",
-                "reference": "f32aab4701b8d121d4cb32dfac0b2cb896941834"
+                "reference": "bc257870cc46d505d291be39dd937746ad4b666a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/terminal42/contao-folderpage/zipball/f32aab4701b8d121d4cb32dfac0b2cb896941834",
-                "reference": "f32aab4701b8d121d4cb32dfac0b2cb896941834",
+                "url": "https://api.github.com/repos/terminal42/contao-folderpage/zipball/bc257870cc46d505d291be39dd937746ad4b666a",
+                "reference": "bc257870cc46d505d291be39dd937746ad4b666a",
                 "shasum": ""
             },
             "require": {
@@ -4092,7 +4093,7 @@
                 "folderpage",
                 "page"
             ],
-            "time": "2016-04-14 12:16:43"
+            "time": "2016-08-09 16:01:12"
         },
         {
             "name": "terminal42/contao-leads",
@@ -4100,12 +4101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/terminal42/contao-leads.git",
-                "reference": "56c78b5919e8ea160692812929ee160f2d6e8574"
+                "reference": "d6402acf734334559254c62236fe4caeedbda8f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/terminal42/contao-leads/zipball/56c78b5919e8ea160692812929ee160f2d6e8574",
-                "reference": "56c78b5919e8ea160692812929ee160f2d6e8574",
+                "url": "https://api.github.com/repos/terminal42/contao-leads/zipball/d6402acf734334559254c62236fe4caeedbda8f7",
+                "reference": "d6402acf734334559254c62236fe4caeedbda8f7",
                 "shasum": ""
             },
             "require": {
@@ -4151,7 +4152,7 @@
                 "form",
                 "store"
             ],
-            "time": "2016-08-05 10:20:59"
+            "time": "2016-08-18 08:45:05"
         },
         {
             "name": "terminal42/dcawizard",
@@ -5237,23 +5238,23 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716"
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/4e8f0da10ac5802913afc151413bc8c53b6c2716",
-                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.4"
+                "phpunit/phpunit": "^4.8 || ^5.0"
             },
             "type": "library",
             "extra": {
@@ -5283,7 +5284,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-05-17 03:18:57"
+            "time": "2016-08-18 05:49:44"
         },
         {
             "name": "sebastian/exporter",
@@ -5493,28 +5494,29 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "30eed06dd6bc88410a4ff7f77b6d22f3ce13dbde"
+                "reference": "bb2d123231c095735130cc8f6d31385a44c7b308"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/30eed06dd6bc88410a4ff7f77b6d22f3ce13dbde",
-                "reference": "30eed06dd6bc88410a4ff7f77b6d22f3ce13dbde",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/bb2d123231c095735130cc8f6d31385a44c7b308",
+                "reference": "bb2d123231c095735130cc8f6d31385a44c7b308",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3|^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.6"
+                "phpunit/phpunit": "^4.6",
+                "sebastian/version": "^1.0.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -5538,7 +5540,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2015-08-24 13:29:44"
+            "time": "2016-08-09 15:02:57"
         }
     ],
     "aliases": [
