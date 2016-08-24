@@ -37,7 +37,10 @@
         "phpunit/phpunit": "4.*"
     },
     "autoload": {
-        "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
+        "classmap": [ "app/AppKernel.php", "app/AppCache.php" ],
+        "psr-4": {
+            "AppBundle\\": "src/AppBundle/"
+        }
     },
     "config": {
         "preferred-install": "dist",

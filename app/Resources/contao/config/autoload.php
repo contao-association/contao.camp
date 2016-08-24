@@ -3,7 +3,7 @@
 /**
  * Register the templates
  */
-TemplateLoader::addFiles(
+Contao\TemplateLoader::addFiles(
     [
         'ce_accordionSingle' => 'app/Resources/contao/templates',
         'ce_headline'        => 'app/Resources/contao/templates',
