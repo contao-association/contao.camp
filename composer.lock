@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "52676490dfe164a8a3d9ade452a730de",
+    "hash": "08e2a067c46fd778b5e548d73bea1c4d",
     "content-hash": "285704e61899b068799465de4d6aa00a",
     "packages": [
         {
@@ -4050,12 +4050,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/terminal42/contao-folderpage.git",
-                "reference": "bc257870cc46d505d291be39dd937746ad4b666a"
+                "reference": "f039c1c2937ea245b7afbb26b55fc832e980ea95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/terminal42/contao-folderpage/zipball/bc257870cc46d505d291be39dd937746ad4b666a",
-                "reference": "bc257870cc46d505d291be39dd937746ad4b666a",
+                "url": "https://api.github.com/repos/terminal42/contao-folderpage/zipball/f039c1c2937ea245b7afbb26b55fc832e980ea95",
+                "reference": "f039c1c2937ea245b7afbb26b55fc832e980ea95",
                 "shasum": ""
             },
             "require": {
@@ -4093,7 +4093,7 @@
                 "folderpage",
                 "page"
             ],
-            "time": "2016-08-09 16:01:12"
+            "time": "2016-08-24 12:42:30"
         },
         {
             "name": "terminal42/contao-leads",
