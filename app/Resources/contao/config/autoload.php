@@ -5,6 +5,7 @@
  */
 Contao\TemplateLoader::addFiles(
     [
+        'analytics_piwik'    => 'app/Resources/contao/templates',
         'ce_accordionSingle' => 'app/Resources/contao/templates',
         'ce_headline'        => 'app/Resources/contao/templates',
         'ce_html_teilnehmer' => 'app/Resources/contao/templates',
