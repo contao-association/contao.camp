@@ -18,8 +18,12 @@ DirectoryIndex app.php
     RewriteCond %{HTTPS} off
     RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,NC,L]
 
+    # Force non-www domain
     RewriteCond %{HTTP_HOST} ^www\. [NC]
     RewriteRule (.*) https://contao.camp%{REQUEST_URI} [R=301,NC,L]
+
+    # Fix old language-aware URLs
+    RewriteRule ^de/(.*) https://contao.camp/$1 [R=301,NC,L]
 
     # Determine the RewriteBase automatically and set it as environment variable.
     # If you are using Apache aliases to do mass virtual hosting or installed the
