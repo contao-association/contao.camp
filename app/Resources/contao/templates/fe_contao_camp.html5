@@ -11,7 +11,7 @@
 
     <?= $this->framework ?>
     <?= $this->stylesheets ?>
-    <link rel="stylesheet" type="text/css" href="layout/app.css">
+    <link rel="stylesheet" type="text/css" href="layout/app.css?v=2.0.2">
     <?= $this->mooScripts ?>
     <?= $this->head ?>
 
