@@ -1,0 +1,22 @@
+@media (max-width: 34em) {
+
+    .table_program thead {
+        display: none;
+    }
+
+    .table_program tr,
+    .table_program td,
+    .table_program th {
+        display: block;
+        width: 100%;
+    }
+
+    .table_program td[data-title]:before {
+      content: attr(data-title);
+      font-weight: 600;
+    }
+    
+    .table_program td.td--empty {
+        display: none;
+    }
+}

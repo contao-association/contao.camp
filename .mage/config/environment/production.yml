@@ -40,7 +40,7 @@ releases:
     directory: releases
 
 hosts:
-    - 149.126.4.10
+    - contao.camp
 
 tasks:
     pre-deploy:
@@ -64,4 +64,7 @@ tasks:
         - doctrine-migrate: {env: prod}
         - doctrine-clear: {env: prod}
         - symfony2/cache-clear: {env: prod}
+        - opcache-clear
         - maintenance-unlock: {env: prod}
+    post-deploy:
+        - clean-releases

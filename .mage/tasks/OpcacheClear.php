@@ -4,7 +4,7 @@ namespace Task;
 
 use Mage\Task\AbstractTask;
 
-class DevController extends AbstractTask
+class OpcacheClear extends AbstractTask
 {
 
     /**
@@ -12,7 +12,7 @@ class DevController extends AbstractTask
      */
     public function getName()
     {
-        return 'Enabling development entry point';
+        return 'Clearing OpCode cache';
     }
 
     /**
@@ -20,6 +20,6 @@ class DevController extends AbstractTask
      */
     public function run()
     {
-        return $this->runCommandRemote("mv web/app_dev.php web/app.php");
+        return $this->runCommandRemote("pkill lsphp");
     }
 }
