@@ -3,10 +3,18 @@ contao:
     prepend_locale: false
     localconfig:
         licenseAccepted: true
-        adminEmail: "association@contao.org"
-        disableCron: true
         enableSearch: false
-        datimFormat: "d.m.Y H:i"
-        dateFormat: "d.m.Y"
-        allowedTags: "<a><abbr><acronym><address><area><article><aside><audio><b><bdi><bdo><big><blockquote><br><base><button><canvas><caption><cite><code><col><colgroup><data><datalist><dataset><dd><del><dfn><div><dl><dt><em><fieldset><figcaption><figure><footer><form><h1><h2><h3><h4><h5><h6><header><hgroup><hr><i><img><input><ins><kbd><keygen><label><legend><li><link><map><mark><menu><nav><object><ol><optgroup><option><output><p><param><picture><pre><q><s><samp><script><section><select><small><source><span><strong><style><sub><sup><table><tbody><td><textarea><tfoot><th><thead><time><tr><tt><u><ul><var><video><wbr>"
+        disableCron: true
+
         installPassword: "%install_password%"
+        websiteTitle: "Contao Camp"
+        adminEmail: "association@contao.org"
+        dateFormat: "d.m.Y"
+        datimFormat: "d.m.Y H:i"
+        timeZone: 'Europe/Zurich'
+        allowedTags: "<a><abbr><acronym><address><area><article><aside><audio><b><bdi><bdo><big><blockquote><br><base><button><canvas><caption><cite><code><col><colgroup><data><datalist><dataset><dd><del><dfn><div><dl><dt><em><fieldset><figcaption><figure><footer><form><h1><h2><h3><h4><h5><h6><header><hgroup><hr><i><img><input><ins><kbd><keygen><label><legend><li><link><map><mark><menu><nav><object><ol><optgroup><option><output><p><param><picture><pre><q><s><samp><script><section><select><small><source><span><strong><style><sub><sup><table><tbody><td><textarea><tfoot><th><thead><time><tr><tt><u><ul><var><video><wbr>"
+
+        # Adjust the upload image settings
+        maxFileSize: 20480000
+        imageWidth: 2500
+        imageHeight: 2500
