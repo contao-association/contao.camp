@@ -3,7 +3,7 @@
 <?php $this->block('content'); ?>
 
 <script type="text/javascript" src="https://<?= $this->xing_alias ?>-modules.xing-events.com/resources/js/amiandoExport.js"></script>
-<iframe src="https://<?= $this->xing_alias ?>-modules.xing-events.com/contaocamp2016.html?viewType=iframe&distributionChannel=CHANNEL_IFRAME&useDefaults=false&resizeIFrame=true" frameborder="0" width="100%" height="500" id="_amiandoIFrame<?= $this->id ?>">
+<iframe src="https://<?= $this->xing_alias ?>-modules.xing-events.com/<?= $this->xing_alias ?>.html?viewType=iframe&distributionChannel=CHANNEL_IFRAME&useDefaults=false&resizeIFrame=true" frameborder="0" width="100%" height="500" id="_amiandoIFrame<?= $this->id ?>">
     <p>Diese Seite benötigt die Unterstützung von Frames durch Ihren Browser. Bitte nutzen Sie einen Browser, der die Darstellung von Frames unterstützt, damit das Ticketvorverkaufs-Modul angezeigt werden kann.</p>
 </iframe>
 

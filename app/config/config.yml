@@ -1,96 +1,20 @@
-imports:
-    - { resource: parameters.yml }
-    - { resource: security.yml }
 
-# Put parameters here that don't need to change on each machine where the app is deployed
-# http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
-parameters:
-    locale: en
-
-# Framework configuration
-framework:
-    secret: "%secret%"
-    router:
-        resource: "%kernel.root_dir%/config/routing.yml"
-        strict_requirements: ~
-    templating:
-        engines: ['twig']
-    default_locale:  "%locale%"
-    session:
-        handler_id: ~
-    csrf_protection: ~
-    translator: { fallbacks: ["%locale%"] }
-
-# Contao configuration
 contao:
-    prepend_locale: "%prepend_locale%"
-    encryption_key: "%kernel.secret%"
+    prepend_locale: false
+    localconfig:
+        licenseAccepted: true
+        enableSearch: false
+        disableCron: true
 
-# Twig configuration
-twig:
-    debug: "%kernel.debug%"
-    strict_variables: "%kernel.debug%"
+        installPassword: "%install_password%"
+        websiteTitle: "Contao Camp"
+        adminEmail: "association@contao.org"
+        dateFormat: "d.m.Y"
+        datimFormat: "d.m.Y H:i"
+        timeZone: 'Europe/Zurich'
+        allowedTags: "<a><abbr><acronym><address><area><article><aside><audio><b><bdi><bdo><big><blockquote><br><base><button><canvas><caption><cite><code><col><colgroup><data><datalist><dataset><dd><del><dfn><div><dl><dt><em><fieldset><figcaption><figure><footer><form><h1><h2><h3><h4><h5><h6><header><hgroup><hr><i><img><input><ins><kbd><keygen><label><legend><li><link><map><mark><menu><nav><object><ol><optgroup><option><output><p><param><picture><pre><q><s><samp><script><section><select><small><source><span><strong><style><sub><sup><table><tbody><td><textarea><tfoot><th><thead><time><tr><tt><u><ul><var><video><wbr>"
 
-# Doctrine configuration
-doctrine:
-    dbal:
-        default_connection: default
-        connections:
-            default:
-                driver:   pdo_mysql
-                host:     "%database_host%"
-                port:     "%database_port%"
-                user:     "%database_user%"
-                password: "%database_password%"
-                dbname:   "%database_name%"
-                charset:  UTF8
-    orm:
-        auto_generate_proxy_classes: "%kernel.debug%"
-        naming_strategy: doctrine.orm.naming_strategy.default
-        auto_mapping: true
-
-        metadata_cache_driver:
-            type: service
-            id: doctrine_cache.providers.doctrine_metadata_cache
-        result_cache_driver:
-            type: service
-            id: doctrine_cache.providers.doctrine_result_cache
-        query_cache_driver:
-            type: service
-            id: doctrine_cache.providers.doctrine_query_cache
-
-doctrine_migrations: ~
-
-doctrine_cache:
-    providers:
-        google_api:
-            file_system:
-                extension: ".cache"
-                directory: "%kernel.cache_dir%/google_api/"
-        doctrine_metadata_cache:
-            file_system:
-                extension: ".cache"
-                directory: "%kernel.cache_dir%/doctrine/metadata"
-        doctrine_result_cache:
-            file_system:
-                extension: ".cache"
-                directory: "%kernel.cache_dir%/doctrine/result"
-        doctrine_query_cache:
-            file_system:
-                extension: ".cache"
-                directory: "%kernel.cache_dir%/doctrine/query"
-
-# SwiftMailer configuration
-swiftmailer:
-    transport:  "%mailer_transport%"
-    host:       "%mailer_host%"
-    username:   "%mailer_user%"
-    password:   "%mailer_password%"
-    port:       "%mailer_port%"
-    encryption: "%mailer_encryption%"
-
-# Lexik configuration
-lexik_maintenance:
-    driver:
-        class:   Lexik\Bundle\MaintenanceBundle\Drivers\FileDriver
-        options: {file_path: "%kernel.root_dir%/cache/lock"}
+        # Adjust the upload image settings
+        maxFileSize: 20480000
+        imageWidth: 2500
+        imageHeight: 2500
