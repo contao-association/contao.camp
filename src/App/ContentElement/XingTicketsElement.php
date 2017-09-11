@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\ContentElement;
+namespace App\ContentElement;
 
 use Contao\BackendTemplate;
 use Contao\ContentElement;
