@@ -1,29 +1,26 @@
-# Mage config
-.mage/config/environment/development.yml
-
 # App config
 /app/config/parameters.yml
-
-# Generated files
-/web/layout/app.css
-/web/layout/app.js
+/app/Resources/contao/config/runonce.php
 
 # Generated folders
 /assets/
 /files/
-/system/*
-!/system/config/
-/templates/
-/vendor/
 /node_modules/
+/system/
+/templates/
+/var/
+/vendor/
+/web/layout/
 
 # Symlinked resources
 /web/assets
-/web/bundles/
-/web/files/
-/web/share/
-/web/system/
-/web/vendor/
+/web/bundles
+/web/files
+/web/share
+/web/system
+/web/.htaccess
+/web/app.php
+/web/app_dev.php
 
-# Skip files
-/system/modules/*/.skip
+# Deployment
+/.mage_logs

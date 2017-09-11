@@ -1,4 +1,4 @@
 Contao Camp website
 ===================
 
-This is the website for Contao Camp: http://contao.camp/
+This is the website for Contao Camp: https://contao.camp/
